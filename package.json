@@ -1,0 +1,23 @@
+{
+  "name": "burtbot",
+  "version": "0.1.0",
+  "description": "Clearly the most useful bot ever!",
+  "main": "bot.js",
+  "dependencies": {
+    "botkit": "0.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamkrone/burtbot.git"
+  },
+  "author": "krone.adam@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamkrone/burtbot/issues"
+  },
+  "homepage": "https://github.com/adamkrone/burtbot#readme"
+}
