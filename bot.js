@@ -23,11 +23,27 @@ controller.hears(['coldplay'],
                 ['direct_message', 'direct_mention', 'mention'],
                 coldplay);
 
+controller.hears(['Inigo Montoya'],
+                ['direct_message', 'direct_mention', 'mention'],
+                inigoMontoya);
+
+controller.hears(['jazzed'],
+                ['direct_message', 'direct_mention', 'mention'],
+                jazzed);
+
 function shareTheLove(bot, message) {
   bot.reply(message, 'Certainly! I hope this cheers you up! ' + imageLink);
 }
 
 function coldplay(bot,message) {
-  bot.reply(message, 'Mom always said: You have to wait 30 minutes after lunch before you listen to Coldplay'
+  bot.reply(message, 'Mom always said: You have to wait 30 minutes after lunch before you listen to Coldplay '
   + 'http://cdn.meme.am/instances/500x/66294493.jpg');
+}
+
+function inigoMontoya(bot,message){
+  bot.reply(message,'Hello. My name is Inigo Montoya. You killed my father. Prepare to die.');
+}
+
+function jazzed(bot,message){
+  bot.reply(message,'Not as jazzed as the Covisint waiting song.');
 }
