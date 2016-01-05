@@ -18,7 +18,16 @@ var bot = controller.spawn({
 controller.hears(['share the love'],
                  ['direct_message', 'direct_mention', 'mention'],
                  shareTheLove);
+                 
+controller.hears(['coldplay'],
+                ['direct_message', 'direct_mention', 'mention'],
+                coldplay);
 
 function shareTheLove(bot, message) {
   bot.reply(message, 'Certainly! I hope this cheers you up! ' + imageLink);
+}
+
+function coldplay(bot,message) {
+  bot.reply(message, 'Mom always said: You have to wait 30 minutes after lunch before you listen to Coldplay'
+  + 'http://cdn.meme.am/instances/500x/66294493.jpg');
 }
