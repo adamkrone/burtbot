@@ -16,19 +16,19 @@ var bot = controller.spawn({
 });
 
 controller.hears(['share the love'],
-                 ['direct_message', 'direct_mention', 'mention'],
+                 ['direct_message', 'direct_mention', 'mention','ambient'],
                  shareTheLove);
                  
 controller.hears(['coldplay'],
-                ['direct_message', 'direct_mention', 'mention'],
+                ['direct_message', 'direct_mention', 'mention','ambient'],
                 coldplay);
 
 controller.hears(['Inigo Montoya'],
-                ['direct_message', 'direct_mention', 'mention'],
+                ['direct_message', 'direct_mention', 'mention','ambient'],
                 inigoMontoya);
 
 controller.hears(['jazzed'],
-                ['direct_message', 'direct_mention', 'mention'],
+                ['direct_message', 'direct_mention', 'mention','ambient'],
                 jazzed);
 
 function shareTheLove(bot, message) {
