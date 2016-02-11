@@ -37,7 +37,7 @@ function shareTheLove(bot, message) {
 
 function coldplay(bot,message) {
   bot.reply(message, 'Mom always said: You have to wait 30 minutes after lunch before you listen to Coldplay '
-  + 'http://i.imgur.com/1A88F33.jpg');
+  + 'http://i.imgur.com/voY14ux.jpg');
 }
 
 function inigoMontoya(bot,message){
