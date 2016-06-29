@@ -18,7 +18,7 @@ var bot = controller.spawn({
 controller.hears(['share the love'],
                  ['direct_message', 'direct_mention', 'mention','ambient'],
                  shareTheLove);
-                 
+
 controller.hears(['coldplay'],
                 ['direct_message', 'direct_mention', 'mention','ambient'],
                 coldplay);
@@ -54,6 +54,5 @@ function jazzed(bot,message){
 
 function deadpool (bot,message) {
   bot.reply(message,'Well hello there!'
-    + 'http://i.huffpost.com/gen/2773102/images/o-RYAN-REYNOLDS-DEADPOOL-facebook.jpg') 
-}
+    + 'http://i.huffpost.com/gen/2773102/images/o-RYAN-REYNOLDS-DEADPOOL-facebook.jpg')
 }

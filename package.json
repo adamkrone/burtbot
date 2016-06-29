@@ -4,7 +4,7 @@
   "description": "Clearly the most useful bot ever!",
   "main": "bot.js",
   "dependencies": {
-    "botkit": "0.0.5"
+    "botkit": "0.2.2"
   },
   "devDependencies": {},
   "scripts": {
