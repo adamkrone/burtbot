@@ -31,6 +31,10 @@ controller.hears(['jazzed'],
                 ['direct_message', 'direct_mention', 'mention','ambient'],
                 jazzed);
 
+controller.hears(['deadpool'],
+                ['direct_message', 'direct_mention', 'mention','ambient'],
+                deadpool)
+
 function shareTheLove(bot, message) {
   bot.reply(message, 'Certainly! I hope this cheers you up! ' + imageLink);
 }
@@ -46,4 +50,10 @@ function inigoMontoya(bot,message){
 
 function jazzed(bot,message){
   bot.reply(message,'Not as jazzed as the Covisint waiting song.');
+}
+
+function deadpool (bot,message) {
+  bot.reply(message,'Well hello there!'
+    + 'http://i.huffpost.com/gen/2773102/images/o-RYAN-REYNOLDS-DEADPOOL-facebook.jpg') 
+}
 }
