@@ -7,13 +7,8 @@ var controller = Botkit.slackbot({
 });
 
 var bot = controller.spawn({
-  token: process.env.token
-}).startRTM(function (err, bot, payload) {
-  if (err) {
-    bot.botkit.log('Something went wrong:', err);
-    process.exit(1);
-  }
-});
+  token: 'xoxb-17631927873-ZGQL1tHrG6ErkVXNzonjPkVE'
+}).startRTM();
 
 controller.hears(['share the love'],
                  ['direct_message', 'direct_mention', 'mention','ambient'],
