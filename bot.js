@@ -7,7 +7,7 @@ var controller = Botkit.slackbot({
 });
 
 var bot = controller.spawn({
-  token: 'xoxb-17631927873-ZGQL1tHrG6ErkVXNzonjPkVE'
+  token: 'REPLACE-ME'
 }).startRTM();
 
 controller.hears(['share the love'],
